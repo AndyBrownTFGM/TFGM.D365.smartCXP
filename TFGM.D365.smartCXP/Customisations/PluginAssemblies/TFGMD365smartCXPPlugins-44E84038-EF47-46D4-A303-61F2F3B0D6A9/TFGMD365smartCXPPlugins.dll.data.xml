@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="TFGM.D365.smartCXP.Plugins, Version=1.3.0.0, Culture=neutral, PublicKeyToken=45232b26e3c12b2e" PluginAssemblyId="44e84038-ef47-46d4-a303-61f2f3b0d6a9" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/TFGMD365smartCXPPlugins-44E84038-EF47-46D4-A303-61F2F3B0D6A9/TFGMD365smartCXPPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="TFGM.D365.smartCXP.Plugins.PreValidateaccountCreate, TFGM.D365.smartCXP.Plugins, Version=1.3.0.0, Culture=neutral, PublicKeyToken=45232b26e3c12b2e" PluginTypeId="67976a36-e6ec-4b79-9ca0-6876da1f50f8" Name="TFGM.D365.smartCXP.Plugins.PreValidateaccountCreate">
+      <FriendlyName>02092f9e-fe8f-4424-b26d-6cc1127bc652</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
+  <Solutions>
+    <Solution Assembly="TFGM.D365.smartCXP.Plugins.dll" Id="44e84038-ef47-46d4-a303-61f2f3b0d6a9" IsolationMode="Sandbox" SourceType="Database">
+      <PluginTypes>
+        <clear />
+        <Plugin Description="Plug-in to Create of account" FriendlyName="Create of account" Name="TFGM.D365.smartCXP.Plugins.PreValidateaccountCreate" Id="67976a36-e6ec-4b79-9ca0-6876da1f50f8" TypeName="TFGM.D365.smartCXP.Plugins.PreValidateaccountCreate">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="Create of account" Description="Create of account" Id="3a42db18-cb22-e811-a8a0-002248019477" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="account" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+      </PluginTypes>
+    </Solution>
+    <Solution Assembly="TFGM.D365.smartCXP.Workflows.dll" Id="2a9d62fc-3eba-483c-b828-4778b1c34d4b" IsolationMode="Sandbox" SourceType="Database">
+      <WorkflowTypes>
+        <clear />
+        <WorkflowType FriendlyName="ExampleWorkflow" Name="ExampleWorkflow" Description="Just for example" WorkflowActivityGroupName="Example" WorkflowActivityProjectName="Workflows" Id="00000000-0000-0000-0000-000000000000" TypeName="TFGM.D365.smartCXP.Workflows.ExampleWorkflow" />
+      </WorkflowTypes>
+    </Solution>
+  </Solutions>
+  <XamlWorkflows>
+    <XamlWorkflowSolution Assembly="TFGM.D365.smartCXP.Workflows.dll" />
+  </XamlWorkflows>
+</Register>

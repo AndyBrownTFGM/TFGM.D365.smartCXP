@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Create of account" SdkMessageProcessingStepId="{3a42db18-cb22-e811-a8a0-002248019477}">
+  <PluginTypeName>TFGM.D365.smartCXP.Plugins.PreValidateaccountCreate, TFGM.D365.smartCXP.Plugins, Version=1.3.0.0, Culture=neutral, PublicKeyToken=45232b26e3c12b2e</PluginTypeName>
+  <PluginTypeId>67976a36-e6ec-4b79-9ca0-6876da1f50f8</PluginTypeId>
+  <PrimaryEntity>account</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Create of account</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>10</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

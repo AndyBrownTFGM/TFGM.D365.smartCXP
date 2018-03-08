@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{88A30576-7583-4F75-8136-5EFD2C14ADFF}") = "CrmPackage", "TFGM.D365.smartCXP\CrmPackage\CrmPackage.csproj", "{89AAFF8F-408E-42B9-844E-FDF3B6C0B1AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B1F188E-2714-45DB-9B21-8748A187CAA9} = {8B1F188E-2714-45DB-9B21-8748A187CAA9}
+		{55B3CCB2-F874-4B04-A2C7-93845043BD64} = {55B3CCB2-F874-4B04-A2C7-93845043BD64}
+		{FC8FF3C6-25FA-433C-BB8B-32062D1C238C} = {FC8FF3C6-25FA-433C-BB8B-32062D1C238C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "TFGM.D365.smartCXP\Plugins\Plugins.csproj", "{55B3CCB2-F874-4B04-A2C7-93845043BD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflows", "TFGM.D365.smartCXP\Workflows\Workflows.csproj", "{FC8FF3C6-25FA-433C-BB8B-32062D1C238C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "smartCXP", "TFGM.D365.smartCXP\Customisations\smartCXP.CSPROJ", "{8B1F188E-2714-45DB-9B21-8748A187CAA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89AAFF8F-408E-42B9-844E-FDF3B6C0B1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AAFF8F-408E-42B9-844E-FDF3B6C0B1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AAFF8F-408E-42B9-844E-FDF3B6C0B1AB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{89AAFF8F-408E-42B9-844E-FDF3B6C0B1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AAFF8F-408E-42B9-844E-FDF3B6C0B1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AAFF8F-408E-42B9-844E-FDF3B6C0B1AB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{55B3CCB2-F874-4B04-A2C7-93845043BD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B3CCB2-F874-4B04-A2C7-93845043BD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B3CCB2-F874-4B04-A2C7-93845043BD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B3CCB2-F874-4B04-A2C7-93845043BD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8FF3C6-25FA-433C-BB8B-32062D1C238C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8FF3C6-25FA-433C-BB8B-32062D1C238C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8FF3C6-25FA-433C-BB8B-32062D1C238C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8FF3C6-25FA-433C-BB8B-32062D1C238C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1F188E-2714-45DB-9B21-8748A187CAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1F188E-2714-45DB-9B21-8748A187CAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1F188E-2714-45DB-9B21-8748A187CAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1F188E-2714-45DB-9B21-8748A187CAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97822313-C7D3-417C-994F-5A4BEC6CF183}
+	EndGlobalSection
+	GlobalSection(CRMSolutionProperties) = preSolution
+		SolutionIsBoundToCRM = True
+	EndGlobalSection
+EndGlobal

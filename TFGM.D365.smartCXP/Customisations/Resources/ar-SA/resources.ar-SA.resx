@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1025</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>HoldingSolution.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Unmanaged</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVp
+        bGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==
+</value>
+  </metadata>
+  <data name="15062:LocalizedName,smartCXP" xml:space="preserve">
+    <value />
+    <comment> 'smartCXP' : LocalizedName for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,TFGMtfgm76676" xml:space="preserve">
+    <value />
+    <comment> 'TFGM' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="1:Description,Account{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value />
+    <comment>'Account' : Description for systemform in Entity FormXml ID: '{8448b78f-8f42-454e-8e2a-f8196b0419af}'</comment>
+  </data>
+  <data name="1:label,Account{0125719c-a5b0-4230-9817-3fba5d6ebfaf}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{0125719c-a5b0-4230-9817-3fba5d6ebfaf}'</comment>
+  </data>
+  <data name="1:label,Account{02719696-a5da-b791-48c3-4e8cb8b110d5}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{02719696-a5da-b791-48c3-4e8cb8b110d5}'</comment>
+  </data>
+  <data name="1:label,Account{0a536c64-788d-4f22-a388-fbddfdee8142}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{0a536c64-788d-4f22-a388-fbddfdee8142}'</comment>
+  </data>
+  <data name="1:label,Account{0bab9157-d14e-441f-969d-80460634c15e}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{0bab9157-d14e-441f-969d-80460634c15e}'</comment>
+  </data>
+  <data name="1:label,Account{0eb92e6c-bcb8-0d52-a188-d81543ddb7cd}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{0eb92e6c-bcb8-0d52-a188-d81543ddb7cd}'</comment>
+  </data>
+  <data name="1:label,Account{0F664FFF-E39E-4676-9191-CBA16972B21D}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{0F664FFF-E39E-4676-9191-CBA16972B21D}'</comment>
+  </data>
+  <data name="1:label,Account{11a42c72-9ded-ea04-253d-2143e731b795}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for tab in Entity FormXml ID: '{11a42c72-9ded-ea04-253d-2143e731b795}'</comment>
+  </data>
+  <data name="1:label,Account{12927a20-3614-4546-89fc-9bdbd9b7432f}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{12927a20-3614-4546-89fc-9bdbd9b7432f}'</comment>
+  </data>
+  <data name="1:label,Account{138ad8a0-c6c4-bebc-c4ca-8aa284dad124}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{138ad8a0-c6c4-bebc-c4ca-8aa284dad124}'</comment>
+  </data>
+  <data name="1:label,Account{1c33ad89-92a1-8433-2378-306259eb57c0}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{1c33ad89-92a1-8433-2378-306259eb57c0}'</comment>
+  </data>
+  <data name="1:label,Account{24be16a9-e3c4-a7bb-37a6-b5c7143460e8}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{24be16a9-e3c4-a7bb-37a6-b5c7143460e8}'</comment>
+  </data>
+  <data name="1:label,Account{25e2629c-360c-89e4-d983-b4281c6b0564}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{25e2629c-360c-89e4-d983-b4281c6b0564}'</comment>
+  </data>
+  <data name="1:label,Account{26e829cb-9a5d-a0b5-b062-0a931e082a1e}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{26e829cb-9a5d-a0b5-b062-0a931e082a1e}'</comment>
+  </data>
+  <data name="1:label,Account{275706e0-5d65-97ce-d614-b60a72c7c331}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{275706e0-5d65-97ce-d614-b60a72c7c331}'</comment>
+  </data>
+  <data name="1:label,Account{2787a122-55d5-4c8d-9b21-c8d4ec8cc3fc}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{2787a122-55d5-4c8d-9b21-c8d4ec8cc3fc}'</comment>
+  </data>
+  <data name="1:label,Account{2a22c09d-6b95-623b-9c29-d5921d9deb1e}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{2a22c09d-6b95-623b-9c29-d5921d9deb1e}'</comment>
+  </data>
+  <data name="1:label,Account{2adb5a52-604d-5aad-ba6a-2bbab6c33594}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{2adb5a52-604d-5aad-ba6a-2bbab6c33594}'</comment>
+  </data>
+  <data name="1:label,Account{2D126B5E-B0BB-436D-A8B3-B8A7C6E1F5A9}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{2D126B5E-B0BB-436D-A8B3-B8A7C6E1F5A9}'</comment>
+  </data>
+  <data name="1:label,Account{329c50b5-c80d-155e-aae5-50ca4db32d1a}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{329c50b5-c80d-155e-aae5-50ca4db32d1a}'</comment>
+  </data>
+  <data name="1:label,Account{3441a91e-47c5-672c-7a20-902d6baa9036}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{3441a91e-47c5-672c-7a20-902d6baa9036}'</comment>
+  </data>
+  <data name="1:label,Account{35ae566b-068b-596c-1b5b-81757dbb70c1}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{35ae566b-068b-596c-1b5b-81757dbb70c1}'</comment>
+  </data>
+  <data name="1:label,Account{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for tab in Entity FormXml ID: '{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}'</comment>
+  </data>
+  <data name="1:label,Account{44d54a23-648c-775b-9d82-b40ee31b0e53}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{44d54a23-648c-775b-9d82-b40ee31b0e53}'</comment>
+  </data>
+  <data name="1:label,Account{450a19ce-4186-d44c-9d65-15b05364b8ad}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{450a19ce-4186-d44c-9d65-15b05364b8ad}'</comment>
+  </data>
+  <data name="1:label,Account{478d10a5-5ec2-5604-9d35-5baea2336a60}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{478d10a5-5ec2-5604-9d35-5baea2336a60}'</comment>
+  </data>
+  <data name="1:label,Account{4913500e-605a-809b-e99e-69e2710d09bd}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{4913500e-605a-809b-e99e-69e2710d09bd}'</comment>
+  </data>
+  <data name="1:label,Account{4d2e776d-7d85-c51b-3900-1ae7323b0a6b}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{4d2e776d-7d85-c51b-3900-1ae7323b0a6b}'</comment>
+  </data>
+  <data name="1:label,Account{54b2d0a2-eb77-b3cd-b60a-03ea6944e98e}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{54b2d0a2-eb77-b3cd-b60a-03ea6944e98e}'</comment>
+  </data>
+  <data name="1:label,Account{59782911-4d1a-38dc-ce49-7dae620dbc51}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{59782911-4d1a-38dc-ce49-7dae620dbc51}'</comment>
+  </data>
+  <data name="1:label,Account{5b296411-032e-394c-72c5-75deebee6aaa}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for tab in Entity FormXml ID: '{5b296411-032e-394c-72c5-75deebee6aaa}'</comment>
+  </data>
+  <data name="1:label,Account{5f38af3a-3307-47dc-b36d-d9a5de525e6e}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{5f38af3a-3307-47dc-b36d-d9a5de525e6e}'</comment>
+  </data>
+  <data name="1:label,Account{73848862-b2ad-a142-440d-4a18a84ba508}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{73848862-b2ad-a142-440d-4a18a84ba508}'</comment>
+  </data>
+  <data name="1:label,Account{7a073b7c-5422-2418-3d26-b2a7eb290832}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{7a073b7c-5422-2418-3d26-b2a7eb290832}'</comment>
+  </data>
+  <data name="1:label,Account{7c550a71-c8f5-469b-a221-cc4563525b70}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{7c550a71-c8f5-469b-a221-cc4563525b70}'</comment>
+  </data>
+  <data name="1:label,Account{7cd2b88c-b25c-4729-9c27-f59ebb5a1538}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{7cd2b88c-b25c-4729-9c27-f59ebb5a1538}'</comment>
+  </data>
+  <data name="1:label,Account{7e87ab43-7321-21c7-5704-24c5c38000c6}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{7e87ab43-7321-21c7-5704-24c5c38000c6}'</comment>
+  </data>
+  <data name="1:label,Account{87DE203E-B03C-44CC-8B06-438202B82553}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{87DE203E-B03C-44CC-8B06-438202B82553}'</comment>
+  </data>
+  <data name="1:label,Account{8b98a55e-a345-b20e-d46e-801e79d5c1c1}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{8b98a55e-a345-b20e-d46e-801e79d5c1c1}'</comment>
+  </data>
+  <data name="1:label,Account{8e24c7e3-6a40-5abb-eadb-254eba5478e2}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{8e24c7e3-6a40-5abb-eadb-254eba5478e2}'</comment>
+  </data>
+  <data name="1:label,Account{910de80a-a17e-092a-255d-44d775cb4207}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{910de80a-a17e-092a-255d-44d775cb4207}'</comment>
+  </data>
+  <data name="1:label,Account{91b5a3ca-77de-8065-d7de-d48a557159b5}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{91b5a3ca-77de-8065-d7de-d48a557159b5}'</comment>
+  </data>
+  <data name="1:label,Account{930beba3-d531-0808-c403-de95e2ac3e62}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{930beba3-d531-0808-c403-de95e2ac3e62}'</comment>
+  </data>
+  <data name="1:label,Account{934219b2-340d-8ec2-a524-b7e5aded1aa3}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{934219b2-340d-8ec2-a524-b7e5aded1aa3}'</comment>
+  </data>
+  <data name="1:label,Account{a085b173-a293-cbc8-de7b-3e64690663db}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{a085b173-a293-cbc8-de7b-3e64690663db}'</comment>
+  </data>
+  <data name="1:label,Account{a4a726a2-8e3e-79d0-02c3-0a04a6b71089}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{a4a726a2-8e3e-79d0-02c3-0a04a6b71089}'</comment>
+  </data>
+  <data name="1:label,Account{a56cc0cd-350e-2901-599b-761d7736e569}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{a56cc0cd-350e-2901-599b-761d7736e569}'</comment>
+  </data>
+  <data name="1:label,Account{a5938e74-ce05-61e3-4147-aa073b575d59}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{a5938e74-ce05-61e3-4147-aa073b575d59}'</comment>
+  </data>
+  <data name="1:label,Account{abc2c862-bcd4-4a4b-ac51-c311d4e66d5b}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{abc2c862-bcd4-4a4b-ac51-c311d4e66d5b}'</comment>
+  </data>
+  <data name="1:label,Account{ad5836b2-96b0-394d-ea36-951d0584b472}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{ad5836b2-96b0-394d-ea36-951d0584b472}'</comment>
+  </data>
+  <data name="1:label,Account{b0e82a7e-5683-d90c-308a-0d779377ea8a}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{b0e82a7e-5683-d90c-308a-0d779377ea8a}'</comment>
+  </data>
+  <data name="1:label,Account{b187688c-8410-5990-16ec-e153968ab583}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{b187688c-8410-5990-16ec-e153968ab583}'</comment>
+  </data>
+  <data name="1:label,Account{c267121d-ed5c-3554-ed2a-4b9c7cc17c51}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for tab in Entity FormXml ID: '{c267121d-ed5c-3554-ed2a-4b9c7cc17c51}'</comment>
+  </data>
+  <data name="1:label,Account{c89e4b42-29b5-63b1-4666-65574779eddd}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for tab in Entity FormXml ID: '{c89e4b42-29b5-63b1-4666-65574779eddd}'</comment>
+  </data>
+  <data name="1:label,Account{ca8587c5-18c0-cac1-7c34-6c639eade090}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{ca8587c5-18c0-cac1-7c34-6c639eade090}'</comment>
+  </data>
+  <data name="1:label,Account{cc0fe06e-4b5f-4648-A62d-84d1514e1fc5}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{cc0fe06e-4b5f-4648-A62d-84d1514e1fc5}'</comment>
+  </data>
+  <data name="1:label,Account{cfa09fa5-ccb6-4f97-bd8d-d7e037a7aab1}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{cfa09fa5-ccb6-4f97-bd8d-d7e037a7aab1}'</comment>
+  </data>
+  <data name="1:label,Account{d3e19d4e-b2ae-409f-9b4e-5976527c6c83}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{d3e19d4e-b2ae-409f-9b4e-5976527c6c83}'</comment>
+  </data>
+  <data name="1:label,Account{d4c3ee9c-ba71-5cdb-31be-2aa505750472}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{d4c3ee9c-ba71-5cdb-31be-2aa505750472}'</comment>
+  </data>
+  <data name="1:label,Account{d61ba33b-9648-d541-459d-ae145a6854db}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{d61ba33b-9648-d541-459d-ae145a6854db}'</comment>
+  </data>
+  <data name="1:label,Account{e1c565b8-7db7-4a44-b4e7-281614ff849b}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{e1c565b8-7db7-4a44-b4e7-281614ff849b}'</comment>
+  </data>
+  <data name="1:label,Account{e201b9ce-c3d5-c922-dba5-528c25066940}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{e201b9ce-c3d5-c922-dba5-528c25066940}'</comment>
+  </data>
+  <data name="1:label,Account{e6441984-4343-813a-aa7e-e2747ad35390}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{e6441984-4343-813a-aa7e-e2747ad35390}'</comment>
+  </data>
+  <data name="1:label,Account{e651d783-6c9f-4e8d-981c-c9577e344e7b}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{e651d783-6c9f-4e8d-981c-c9577e344e7b}'</comment>
+  </data>
+  <data name="1:label,Account{e915b963-4dac-ceb3-d3a7-e4e8892e90a1}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{e915b963-4dac-ceb3-d3a7-e4e8892e90a1}'</comment>
+  </data>
+  <data name="1:label,Account{ea3bb0a6-b9dc-1b0e-5e7d-74a380ee79a3}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{ea3bb0a6-b9dc-1b0e-5e7d-74a380ee79a3}'</comment>
+  </data>
+  <data name="1:label,Account{ec014397-38b8-351c-d38d-08072a08a48d}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for section in Entity FormXml ID: '{ec014397-38b8-351c-d38d-08072a08a48d}'</comment>
+  </data>
+  <data name="1:label,Account{ed50e866-7968-483d-8388-0e6313d3c784}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{ed50e866-7968-483d-8388-0e6313d3c784}'</comment>
+  </data>
+  <data name="1:label,Account{f587cb66-b142-47c9-bc7a-009875261840}" xml:space="preserve">
+    <value />
+    <comment>'Account' : label for cell in Entity FormXml ID: '{f587cb66-b142-47c9-bc7a-009875261840}'</comment>
+  </data>
+  <data name="1:LocalizedName,Account{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value />
+    <comment>'Account' : LocalizedName for systemform in Entity FormXml ID: '{8448b78f-8f42-454e-8e2a-f8196b0419af}'</comment>
+  </data>
+  <data name="1:Title,AccountInfo{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value />
+    <comment>'Account' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,AccountMarketing{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value />
+    <comment>'Account' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,AccountnavActivities{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>الأنشطة</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navActivities'</comment>
+  </data>
+  <data name="1:Title,AccountnavAddresses{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>العناوين</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAddresses'</comment>
+  </data>
+  <data name="1:Title,AccountnavCampaignsInSFA{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>الحملات</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navCampaignsInSFA'</comment>
+  </data>
+  <data name="1:Title,AccountnavConnections{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>الاتصالات</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navConnections'</comment>
+  </data>
+  <data name="1:Title,AccountnavContacts{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>جهات الاتصال</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navContacts'</comment>
+  </data>
+  <data name="1:Title,AccountnavEntitlement{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>الاستحقاقات</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navEntitlement'</comment>
+  </data>
+  <data name="1:Title,AccountnavRelationships{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>علاقة العميل</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navRelationships'</comment>
+  </data>
+  <data name="1:Title,AccountnavService{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>الحالات</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navService'</comment>
+  </data>
+  <data name="1:Title,AccountnavSocialprofiles{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>ملفات التعريف الاجتماعية</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navSocialprofiles'</comment>
+  </data>
+  <data name="1:Title,AccountnavSPDocuments{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>المستندات</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navSPDocuments'</comment>
+  </data>
+  <data name="1:Title,AccountnavSubAccts{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>الحسابات</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navSubAccts'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_account_BillingAccount{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>الحسابات المفوترة</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_account_BillingAccount'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_accountpricelist_Account{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>قوائم أسعار مشروع العميل</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_accountpricelist_Account'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_actualfact_AccountCustomer{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>الحقائق الفعلية</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_actualfact_AccountCustomer'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_actualfact_AccountVendor{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>الحقائق الفعلية</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_actualfact_AccountVendor'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_agreement_BillingAccount{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>الاتفاقيات المفوترة</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_agreement_BillingAccount'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_agreement_ServiceAccount{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>الاتفاقيات</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_agreement_ServiceAccount'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_customerasset_Account{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>أصول العميل</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_customerasset_Account'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_payment_Account{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>عمليات السداد</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_payment_Account'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_project_Customer{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>المشروعات</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_project_Customer'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_purchaseorder_Vendor{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>أوامر الشراء</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_purchaseorder_Vendor'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_rmaproduct_Changeownership{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>تغيير الملكية</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_rmaproduct_Changeownership'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_rmaproduct_ReturntoVendor{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>إرجاع إلى البائع</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_rmaproduct_ReturntoVendor'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_rma_BillingAccount{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>التفويضات بإرجاع المواد (RMAs) المفوترة</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_rma_BillingAccount'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_rma_ServiceAccount{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>تفويضات بإرجاع المواد (RMAs)</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_rma_ServiceAccount'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_rtv_Vendor{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>عمليات الإرجاع إلى البائع (RTVs)</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_rtv_Vendor'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_workorderresourcerestriction_Account{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>قيود الموارد</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_workorderresourcerestriction_Account'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_workorder_BillingAccount{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>أوامر العمل المفوترة</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_workorder_BillingAccount'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_msdyn_workorder_ServiceAccount{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>أوامر العمل</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_msdyn_workorder_ServiceAccount'</comment>
+  </data>
+  <data name="1:Title,Accountnav_msdyn_account_product_DefaultVendor{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value>البائع الافتراضي</value>
+    <comment>'Account' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msdyn_account_product_DefaultVendor'</comment>
+  </data>
+  <data name="1:Title,AccountProcessCenter{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value />
+    <comment>'Account' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,AccountSales{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value />
+    <comment>'Account' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,AccountService{8448b78f-8f42-454e-8e2a-f8196b0419af}" xml:space="preserve">
+    <value />
+    <comment>'Account' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+</root>
